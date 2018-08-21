@@ -364,8 +364,8 @@ video {
 }
 
 .btn-secondary {
-	background-color: #cd9557;
-	border-color: #cd9557;
+	background-color: #7433ff;
+	border-color: #7433ff;
 	border-top-right-radius: 6px !important;
 	border-bottom-right-radius: 6px !important;
 	border-bottom-left-radius: 0;
@@ -375,13 +375,13 @@ video {
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-	background-color: #ba7c37!important;
-	border-color: #ba7c37!important
+	background-color: #4900e6 !important;
+	border-color: #4900e6 !important
 }
 
 .btn-secondary-contact {
-	background-color: #cd9557 !important;
-	border-color: #cd9557 !important;
+	background-color: #7433ff !important;
+	border-color: #7433ff !important;
 	border-top-right-radius: 6px !important;
 	border-bottom-right-radius: 6px !important;
 	border-bottom-left-radius: 6px;
@@ -391,8 +391,8 @@ video {
 .btn-secondary-contact:active,
 .btn-secondary-contact:focus,
 .btn-secondary-contact:hover {
-	background-color: #ba7c37!important;
-	border-color: #ba7c37!important
+	background-color: #4900e6 !important;
+	border-color: #4900e6 !important
 }
 
 .input {
@@ -618,8 +618,8 @@ vertical-align: top
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #cd9557 !important!;
-	border-color: #cd9557 !important!;
+	background-color: #7433ff !important!;
+	border-color: #7433ff !important!;
 	width: auto;
   height: auto;
   cursor: pointer;
@@ -627,8 +627,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	background-color: #ba7c37!important;
-	border-color: #ba7c37!important
+	background-color: #4900e6 !important;
+	border-color: #4900e6 !important
 }
 
 .form-group {
