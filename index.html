@@ -1,0 +1,182 @@
+<!--
+|  __ \               | | |          / _| | |  | |         | | | |
+| |__) |___  ___ _   _| | |_    ___ | |_  | |__| |_   _ ___| |_| | ___
+|  _  // _ \/ __| | | | | __|  / _ \|  _| |  __  | | | / __| __| |/ _ \
+| | \ \  __/\__ \ |_| | | |_  | (_) | |   | |  | | |_| \__ \ |_| |  __/
+|_|  \_\___||___/\__,_|_|\__|  \___/|_|   |_|  |_|\__,_|___/\__|_|\___|
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hen</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/coming-soon.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="import" href="customGA.html">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+    // Set to the same value as the web property used on the site
+    var gaProperty = 'UA-XXX-1';
+
+    // Disable tracking if the opt-out cookie exists.
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+      window[disableStr] = true;
+    }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXX-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-XXX-1');
+    </script>
+
+    <!-- end custom analytics snippet -->
+  </head>
+
+  <body>
+
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="mp4/bg.mp4" type="video/mp4">
+    </video>
+
+  <div class="masthead">
+    <header class="masthead__navigation mb-auto d-flex w-100 p-3 mx-auto flex-column">
+      <div class="inner">
+        <a class="inner-masthead" href="/"><img src="/assets/images/logo.jpg" style="max-height:40px; width:auto;"></a>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="#" id="open-popup" onclick ="showMailingPopUp(); return false;">Join Newsletter</a>
+        </nav>
+      </div>
+    </header>
+      <div class="masthead-bg"></div>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 my-auto">
+            <div class="masthead-content text-white py-5 py-md-0">
+              <h1 class="mb-3">Register</h1>
+              <p class="mb-5">Building a X.
+              We're building X for you. <strong>Request an invitation for early access using the form below!</strong></p>
+              <form action="https://hen.us18.list-manage.com/subscribe/post" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                <input type="hidden" name="u" value="377b993ba697354f6584371c9">
+                <input type="hidden" name="id" value="e1c7ba1f4b">
+                  <div class="input-group input-group-newsletter">
+                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" class="form-control" placeholder="Enter your email..." aria-label="Enter email..." aria-describedby="basic-addon" required>
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary" type="submit" value="Subscribe to list">Notify Me!</button>
+                  </div>
+                  <input type="hidden" name="mc_signupsource">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="mastfoot">
+      <div class="inner-mastfoot">
+        &copy; 2018 X Ltd. All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;&nbsp; <a href="/legal">Legal</a> &nbsp;&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;&nbsp; <a href="/contact">Contact</a>
+      </div>
+  </div>
+
+    <div class="social-icons">
+      <ul class="list-unstyled text-center mb-0">
+        <li class="list-unstyled-item">
+          <a href="/contact">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-medium"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/coming-soon.min.js"></script>
+
+    <!-- Newsletter pop-up -->
+    <link rel="import" href="newsletter.html">
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>
+    function showMailingPopUp() {
+      require(
+        ["mojo/signup-forms/Loader"],
+        function(L) {
+          L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"377b993ba697354f6584371c9","lid":"e1c7ba1f4b"})
+        }
+      );
+
+      document.cookie = "MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+      document.cookie = "MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    }
+
+    document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+
+    </script>
+
+  </body>
+
+</html>

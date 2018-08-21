@@ -1,0 +1,44 @@
+{
+    "title": "Hen",
+    "name": "",
+    "version": "4.1.1",
+    "description": "Building a virtual assistant that makes running a business as easy as chatting.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://www.hen.ai",
+    "bugs": {
+        "url": "",
+        "email": ""
+    },
+    "license": "MIT",
+    "author": "Hen",
+    "contributors": [
+        "Pat Eskinasy (https://www.eskinasy.com/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "bootstrap": "4.1.1",
+        "font-awesome": "4.7.0",
+        "jquery": "3.3.1",
+        "lodash": "^4.17.10",
+        "npm": "^6.3.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.24.5",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.4",
+        "gulp-header": "2.0.5",
+        "gulp-rename": "1.3.0",
+        "gulp-sass": "4.0.1",
+        "gulp-uglify": "3.0.0"
+    }
+}
