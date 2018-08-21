@@ -55,7 +55,7 @@ video {
 
 @media (pointer:coarse) and (hover:none) {
 	body {
-		background: url(../img/Airtaxi.jpg) #002e66 no-repeat center center scroll;
+		background: url(../img/Airtaxi.jpg) #262626 no-repeat center center scroll;
 		background-position: cover
 	}
 
@@ -76,7 +76,7 @@ video {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #cd9557;
+	background-color: #f4f4f4;
 	opacity: .7;
 	z-index: 1
 }
@@ -124,7 +124,7 @@ video {
 	width: 100%;
 	min-height: 35rem;
 	height: 100%;
-	background-color: rgba(0, 46, 102, .8);
+	background-color: rgba(26, 26, 26, .8);
 /*	transform: skewY(4deg);
 	transform-origin: bottom right */
 }
@@ -138,7 +138,7 @@ video {
 	width: 100%;
 	min-height: 40rem;
 	height: 100%;
-	background-color: rgba(0, 46, 102, .8);
+	background-color: rgba(26, 26, 26, .8);
 /*	transform: skewY(4deg);
 	transform-origin: bottom right */
 }
@@ -288,7 +288,7 @@ video {
 .social-icons ul>li>a {
 	display: block;
 	color: #fff;
-	background-color: rgba(0, 46, 102, .8);
+	background-color: rgba(26, 26, 26, .8);
 	border-radius: 100%;
 	font-size: 1rem;
 	line-height: 2rem;
@@ -330,7 +330,7 @@ video {
 	}
 
 	.social-icons ul>li>a:hover {
-		background-color: #002e66
+		background-color: #262626
 	}
 
 }
